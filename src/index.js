@@ -23,13 +23,13 @@ function modosit(){
 
 function kep_mozgat_bal(){
     let img = document.getElementById('kep');
-    img.classList.toggle = 'left';
+    img.style.float = 'left';
 
 }
 
 function kep_mozgat_jobb(){
     let img = document.getElementById('kep');
-    img.classList.toggle = 'right';
+    img.style.float = 'right';
 
 }
 
