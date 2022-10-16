@@ -22,14 +22,14 @@ function modosit(){
 }
 
 function kep_mozgat_bal(){
-    let img = document.getElementById('kep');
-    img.style.float = 'left';
+    let img = document.getElementsByClassName('kep_mozgat');
+    img.classList.toggle = 'left';
 
 }
 
 function kep_mozgat_jobb(){
-    let img = document.getElementById('kep');
-    img.style.float = 'right';
+    let img = document.getElementsByClassName('kep_mozgat');
+    img.classList.toggle = 'right';
 
 }
 
