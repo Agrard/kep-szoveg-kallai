@@ -8,7 +8,56 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <p>This is a template</p>    
+
+    <div class="container">
+        <div class="row">
+            <label class="col-lg">
+                Kép URL: <br>
+                <input type="text" id="urlMezo">
+            </label>
+    
+            <label class="col-lg">
+                A szöveg betűmérete (pt): <br>
+                <input type="number" name="szoveg" id="szovegBetuMeret" min="1">
+            </label>
+    
+            <label class="col-lg"> 
+                A Sorköz mérete (em): <br>
+                <input type="number" name="sorkoz" id="sorkozMeret" min="1">
+            </label>
+    
+            <label class="col-lg">
+                Betűszín: <br>
+                <input type="color" name="szin" id="betuSzin">
+            </label>
+    
+            <label class="col-lg">
+                A kép bal vagy jobb oldalra állítása: <br>
+                <button id="bal_Gomb">Balra</button>
+                <button id="jobb_Gomb">Jobbra</button>
+            </label>
+        </div>
+    </div>
+
+    <div>
+        <p id="szoveg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg" alt="bevitt_kep"  class="kep_mozgat" id="kep" width="300">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut nunc in lorem ullamcorper pulvinar. Cras sed facilisis augue, a lobortis sapien. Aliquam in massa est. Suspendisse libero quam, laoreet vitae lacus et, cursus congue nisi. Donec luctus euismod mattis. Cras porttitor finibus dui eu facilisis. Praesent in faucibus lectus, ac egestas neque. Maecenas eget tellus laoreet, sollicitudin lectus sit amet, semper leo.
+            Nulla sit amet nibh egestas, congue lorem non, faucibus quam. Nullam accumsan consectetur leo eu sodales. Suspendisse potenti. Ut vehicula auctor purus. Proin semper semper quam eu blandit. Vestibulum placerat varius enim eu sodales. Vivamus maximus varius ex, in consectetur nisl efficitur eget.        
+            Duis a diam faucibus, vestibulum turpis eu, gravida massa. Donec lobortis commodo ex in ullamcorper. Mauris in tortor a erat tempor commodo a vel lorem. Donec quis diam ut purus dictum vehicula quis eget urna. Aenean vulputate a ligula in aliquet. Morbi consectetur dignissim ligula ut cursus. Vestibulum pellentesque commodo posuere. Nullam porttitor odio sapien, id mattis augue dapibus nec. Morbi diam lacus, tincidunt quis hendrerit id, pulvinar sed orci. Nullam lacinia imperdiet nisl, vitae posuere odio fermentum hendrerit. Fusce accumsan venenatis purus. Donec rutrum hendrerit mi et volutpat. Maecenas rhoncus erat magna, eu finibus dolor ullamcorper id. Interdum et malesuada fames ac ante ipsum primis in faucibus.       
+            Proin fringilla, ante eu tempus faucibus, est lectus ultrices elit, sit amet volutpat lectus quam eu nisl. Vestibulum convallis sagittis justo id rhoncus. Sed ultrices nunc id libero elementum varius. Fusce quis malesuada tortor. Phasellus pharetra eget elit eget pretium. Sed volutpat neque a mi laoreet posuere. Nam id molestie neque. Morbi ut scelerisque tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis sodales dolor vitae efficitur. Vestibulum facilisis mi non ultrices lobortis. Vestibulum condimentum erat vel metus venenatis, a blandit lectus aliquet.       
+            Duis finibus faucibus tellus, eget dignissim justo suscipit vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer congue neque iaculis ipsum egestas efficitur. Maecenas a massa urna. Maecenas arcu metus, tempus eu blandit consequat, pretium volutpat odio. Curabitur sodales sapien vitae molestie commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur hendrerit, tortor et placerat pharetra, est erat egestas lorem, id laoreet eros purus eu neque. Praesent pretium vehicula arcu a consectetur. Suspendisse auctor, magna eu sagittis mollis, orci odio blandit nibh, et vulputate felis tellus ultricies sem. Nulla rutrum finibus neque non tincidunt. Pellentesque faucibus iaculis scelerisque.
+        </p> 
+    </div>
+    
+    
     <script src='main.js'></script>
+
+
+    <footer style="text-align:center;">
+        Kállai Bertalan Gábor 14/s
+    </footer>
+
+    
 </body>
 </html>
